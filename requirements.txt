@@ -1,0 +1,6 @@
+PyQt5
+numpy
+matplotlib
+websockets
+torch
+requests
