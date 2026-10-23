@@ -1,7 +1,3 @@
-/=================================================================\
-|                 UNDER THE HOOD: HOW BONKAI THINKS               |
-\=================================================================/
-
 I wanted to build something that bridges the gap between theoretical particle physics and live market chaos. Here is exactly what happens while those neon charts flash on your screen.
 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
