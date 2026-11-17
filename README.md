@@ -11,14 +11,13 @@ The system runs on a blazing fast Multilayer Perceptron. It does not just look a
 * **Bollinger Percent B and VWAP Distance:** Two massive mean reversion anchors keeping the model grounded.
 * **Volatility:** An average true range proxy that scales our logic based on current market turbulence.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### 2. Stochastic Brownian Motion Cones
+
 * This is where the physics kicks in. Markets move a lot like particles suspended in fluid.
-* By calculating the log normal standard deviation of recent ticks, the dashboard projects a multipath Brownian cone forward in time.
+* By calculating the log normal standard deviation of recent ticks, the dashboard projects a multipath Brownian cone.
 * It literally draws a glowing visual map of probable future price distributions right before the neural net pulls the trigger.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### 3. Live Combat Logic
 The terminal drinks live data through WebSockets and updates the vector continuously. 
