@@ -14,7 +14,9 @@ The system runs on a blazing fast Multilayer Perceptron. It does not just look a
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### 2. Stochastic Brownian Motion Cones
-This is where the physics kicks in. Markets move a lot like particles suspended in fluid. By calculating the log normal standard deviation of recent ticks, the dashboard projects a multipath Brownian cone forward in time. It literally draws a glowing visual map of probable future price distributions right before the neural net pulls the trigger.
+* This is where the physics kicks in. Markets move a lot like particles suspended in fluid.
+* By calculating the log normal standard deviation of recent ticks, the dashboard projects a multipath Brownian cone forward in time.
+* It literally draws a glowing visual map of probable future price distributions right before the neural net pulls the trigger.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
