@@ -62,7 +62,16 @@ Speed and memory efficiency keep the whole system alive. Rather than recalculati
 
 Once the neural output $\hat{y}_t \in [-1, +1]$ fires, execution follows strict threshold physics:
 
-* **LONG Ignition:** When $\hat{y}_t > +\theta_{\text{entry}}$, upward order flow pressure crosses the activation barrier and the terminal fires a **LONG** position.
-* **SHORT Ignition:** When $\hat{y}_t < -\theta_{\text{entry}}$, downward momentum dominates and the engine flips **SHORT**.
+* **LONG Ignition:** Upward order flow pressure crosses the upper activation barrier and triggers a **LONG** position:
 
-The moment a trade goes live, an automated risk shield locks onto the position. Take Profit targets, dynamic Trailing Stops, and Hard Stops scale automatically using live ATR volatility so stops breathe naturally with market noise. Finally, a Z Score anomaly circuit breaker ($|Z_t| > Z_{\text{crit}}$) acts as an emergency reactor scram switch: if a sudden flash spike distorts market geometry, it overrides all signals and ejects immediately to protect wallet equity.
+$$\hat{y}_t > +\theta_{\text{entry}}$$
+
+* **SHORT Ignition:** Downward momentum dominates past the lower barrier and flips the engine **SHORT**:
+
+$$\hat{y}_t < -\theta_{\text{entry}}$$
+
+The moment a trade goes live, an automated risk shield locks onto the position. Take Profit targets, dynamic Trailing Stops, and Hard Stops scale automatically using live ATR volatility so stops breathe naturally with market noise. Finally, a Z Score anomaly circuit breaker acts as an emergency reactor scram switch:
+
+$$|Z_t| > Z_{\text{crit}}$$
+
+If a sudden flash spike distorts market geometry beyond this critical threshold, it overrides all signals and ejects immediately to protect wallet equity.
