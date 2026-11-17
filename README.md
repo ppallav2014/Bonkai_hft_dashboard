@@ -1,4 +1,5 @@
 I wanted to build something that bridges the gap between theoretical particle physics and live market chaos. Here is exactly what happens while those neon charts flash on your screen.
+<img width="1920" height="1015" alt="Screenshot from 2026-11-17 09-42-36" src="https://github.com/user-attachments/assets/94a691c6-b6dd-437f-ae6e-971c4b547c84" />
 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
